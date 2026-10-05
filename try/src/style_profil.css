@@ -1,0 +1,43 @@
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+}
+
+.kartu-profil {
+    background-color: white;
+    width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nama-utama {
+    text-align: center;
+    color: #005b96;
+}
+
+.foto-profil {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+.bio-singkat {
+    text-align: center;
+}
+
+.judul-hobi {
+    color: #0088cc;
+}
+
+.tautan-profil {
+    text-decoration: none;
+}
+
+.tautan-profil:hover {
+    color: #0088cc;
+}
