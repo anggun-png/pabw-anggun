@@ -1,18 +1,48 @@
-## Getting Started
+# Tugas PABW - Ujian CPMK
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Repository ini berisi implementasi tugas Pengembangan Aplikasi Berbasis Web (PABW).
 
-## Folder Structure
+## 📂 Isi Project
 
-The workspace contains two folders by default, where:
+### 1. Profil Pribadi
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Halaman profil pribadi yang dibuat menggunakan HTML dan CSS.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+File:
+- `profil.html`
+- `style_profil.css`
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Fitur:
+- Nama lengkap
+- Foto profil
+- Bio singkat
+- Daftar hobi
+- Link profil
 
-## Dependency Management
+### 2. Formulir Pendaftaran Seminar
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Halaman formulir pendaftaran seminar yang dibuat menggunakan HTML dan CSS.
+
+File:
+- `pendaftaran.html`
+- `style_pendaftaran.css`
+
+Formulir terdiri dari:
+- Nama lengkap
+- Email
+- Status kehadiran
+- Topik yang diminati
+- Pilihan jadwal
+- Saran dan masukan
+- Tombol Daftar
+- Tombol Reset Formulir
+
+## 🛠️ Teknologi
+
+- HTML5
+- CSS3
+
+## 👤 Identitas
+
+**Nama:** Anggun Dwi Suryaningrum  
+**Mata Kuliah:** Pengembangan Aplikasi Berbasis Web (PABW)
