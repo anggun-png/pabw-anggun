@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Seminar</title>
+    <link rel="stylesheet" href="style_pendaftaran.css">
+</head>
+
+<body>
+
+    <form class="kartu-formulir">
+
+        <h1 class="judul-formulir">
+            Formulir Pendaftaran Seminar
+        </h1>
+
+        <fieldset class="kelompok-form">
+
+            <div class="form-group">
+                <label for="nama">Nama Lengkap</label>
+                <input
+                    type="text"
+                    id="nama"
+                    name="nama"
+                    placeholder="Masukkan nama lengkap"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Masukkan email"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <p>Status Kehadiran</p>
+
+                <label>
+                    <input
+                        type="radio"
+                        name="status"
+                        value="hadir"
+                    >
+                    Hadir
+                </label>
+
+                <label>
+                    <input
+                        type="radio"
+                        name="status"
+                        value="tidak-hadir"
+                    >
+                    Tidak Hadir
+                </label>
+            </div>
+
+            <div class="form-group">
+                <p>Topik yang Diminati</p>
+
+                <label>
+                    <input
+                        type="checkbox"
+                        name="topik"
+                        value="web"
+                    >
+                    Web Development
+                </label>
+
+                <label>
+                    <input
+                        type="checkbox"
+                        name="topik"
+                        value="uiux"
+                    >
+                    UI/UX Design
+                </label>
+
+                <label>
+                    <input
+                        type="checkbox"
+                        name="topik"
+                        value="database"
+                    >
+                    Database
+                </label>
+            </div>
+
+            <div class="form-group">
+                <label for="jadwal">Pilih Jadwal</label>
+
+                <select id="jadwal" name="jadwal">
+                    <option value="">-- Pilih Jadwal --</option>
+                    <option value="sesi-1">Sesi 1 - 09.00 WIB</option>
+                    <option value="sesi-2">Sesi 2 - 13.00 WIB</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="saran">Saran & Masukan</label>
+
+                <textarea
+                    id="saran"
+                    name="saran"
+                    rows="5"
+                    placeholder="Tuliskan saran dan masukan..."
+                ></textarea>
+            </div>
+
+            <div class="tombol">
+                <button type="submit" class="btn-daftar">
+                    Daftar
+                </button>
+
+                <button type="reset" class="btn-reset">
+                    Reset Formulir
+                </button>
+            </div>
+
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
